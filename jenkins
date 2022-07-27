@@ -10,5 +10,23 @@ pipeline {
         }
       }
     }
+    stage('code build') {
+      steps {
+        script {
+          sh """
+          echo Hi all welcome to jenkins Pac
+          """
+        }
+      }
+    }
+    stage('code build 2') {
+      steps {
+        script {
+          sh """
+          echo Hi all welcome to jenkins Pac
+          """
+        }
+      }
+    }
   }
 }
